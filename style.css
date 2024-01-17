@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Mulish', sans-serif;  
+}
+.main{
+    width: 100%;
+height: 900px;
+display: flex;
+align-items: center;
+}
+.navbar{
+    width: 290px;
+    height: 900px;
+    background: #F5F6FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.navbar__top{
+    width: 230px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+height: 50px;
+margin-top: 20px;
+}
+.color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: #54C1FB;
+}
+.mednik{
+    display: flex;
+}
+.mednik__text{
+color: #110B56;
+font-size: 20px;
+font-weight: 900;
+}
+.mednik__span{
+color: #B1B1C9;
+font-size: 12px;
+font-weight: 400;
+}
+.navbar__title{
+    width: auto;
+
+}
+.navbar__item{
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+
+    
+}
+.navbar__item-notes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+
+}
+.item-border{
+    width: 200px;
+    background-image: linear-gradient(to right, #47486F33, #fff);
+}
+
+.navbar__link{
+    padding: 20px 8px;
+    display: inline-block;
+    color: #79798B;
+font-size: 14px;
+font-weight: 500;
+}
+.link-color{
+    color: #56549E;
+}
+.logOut{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+.medical{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 900px;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 900px;
+}
+.medical__top-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 48px;
+}
+.search__input{
+    width: 388px;
+height: 48px;
+border-radius: 40px;
+border: 1px solid #F2F2FD;
+background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.search{
+    color: #B1B1C9;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    border: none;
+}
+.container-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 750px;
+    height: 100vh;
+}
+.report{
+    width: 713px;
+height: 360px;
+box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.247);   
+}
+.image{
+    width: 650px;
+    height: 350px;
+}
+.hospital{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 364px;
+height: 306.583px;
+box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.226);
+}
+.hospital__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+    height: auto;
+}
+.hospital__text{
+    padding: 12px 0;
+}
+.name{
+    padding: 12px 0;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.medika{
+    width: 328px;
+height: 313.326px;
+margin-left: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.247);   
+}
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    padding: 12px 0;
+
+
+}
+.number-text{
+    width: auto;
+    height: 43px;
+}
+.number-item{
+color: #110B56;
+text-align: center;
+font-size: 20.716px;
+font-weight: 900;
+}
+.number-span{
+color: #676E89;
+text-align: center;
+font-size: 12.084px;
+font-weight: 400;
+}
+.rectangle{
+    width: 350px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.covid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 324px;
+height: 232px;
+border-radius: 10px;
+opacity: 0.7;
+background: linear-gradient(120deg, rgba(84, 193, 251, 0.50) -16.03%, rgba(84, 193, 251, 0.50) 103.68%);
+}
+.covid__text{
+color: #FFF;
+font-size: 26px;
+font-weight: 700;
+}
+.covid__lorem{
+width: 224px;
+color: #FFF;
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+margin-top: 10px;
+}
+.covid__button{
+    width: 240px;
+height: 46px;
+border-radius: 6px;
+margin-top: 20px;
+border: none;
+}
+.covid__button:hover{
+    background-color: rgba(84, 193, 251, 0.594);
+    border: none;
+
+}
+.covid__link{
+color: #000;
+font-size: 14px;
+font-weight: 500;
+}
+.covid__button:hover > .covid__link{
+    color: white;
+}
+.Scheduled{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 324px;
+height: 407px;
+box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.231);
+}
+.scheduled__container{
+width: 300px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.scheduled__text{
+color: #110B56;
+font-size: 18px;
+font-weight: 700;
+}
+.scheduled__span{
+color: #F68E5A;
+text-align: right;  
+font-size: 12px;
+font-weight: 400;
+
+}
+.scheduled__lorem{
+color: #9090A4;
+font-size: 12px;
+font-weight: 400;
+}
+.scheduled__button{
+    width: 99px;
+height: 30px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #f49f749a;
+margin-top: 20px;
+border: none;
+}
+.scheduled__link{
+color:black;
+font-size: 12px;
+font-weight: 400;
+}
+.container__text{
+color: #110B56;
+font-size: 16px;
+font-weight: 700;
+}
+.container__lorem{
+    color: #9090A4;
+    font-size: 12px;
+    font-weight: 400;
+}
+.container__button{
+width: 101px;
+height: 30px;
+border-radius: 50px;
+background: #67dfdfae;
+margin-top: 20px;
+border: none;
+}
+.container__link{
+color: black;
+font-size: 12px;
+font-weight: 400;
+}
+.check-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 276px;
+height: 49px;
+border-radius: 6px;
+background: #47486F;
+border: none;
+}
+.check-link{
+color: #FFF;
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+}
